@@ -1,0 +1,5 @@
+<form name="transParty" action="addCustomer" method="post">
+    Type: <input type="text" name="type" /> <br/>
+    Balance: <input type="text" name="balance" />   <br/>
+    <input type="submit" value="   Save   " />
+</form>

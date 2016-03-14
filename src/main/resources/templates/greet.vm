@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Reservations </title>
+</head>
+<body>
+<H1> Reservations </H1>
+<div>
+    #foreach ($r in  $reservations)
+        <b>$r.id</b> -
+<span>
+    $r.reservationName
+</span>
+        <br>
+    #end
+</div>
+</body>
+</html>

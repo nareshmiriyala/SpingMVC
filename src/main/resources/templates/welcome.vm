@@ -1,0 +1,9 @@
+<html>
+<body>
+<a href="/createCustomer">Create Customer</a>
+<br>
+<a href="/viewCustomer">View Customers</a>
+<br>
+<a href="/doTransfer">Transfer</a>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<form name="trans" action="transfer" method="post">
+    Transaction Type: <input type="text" name="type" /> <br/>
+    Debtor Id: <input type="text" name="debtorId" /> <br/>
+    Creditor Id: <input type="text" name="creditorId" /> <br/>
+    Amount: <input type="text" name="amount" />   <br/>
+    <input type="submit" value="   Transfer   " />
+</form>

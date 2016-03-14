@@ -1,0 +1,16 @@
+<body>
+<H1> Customers </H1>
+<div>
+    #foreach ($cust in  $customers)
+        <b>$cust.id</b> -
+<span>
+    $cust.type
+</span>
+        <span>
+            $cust.balance
+</span>
+        <br>
+    #end
+    <a href="/createCustomer">Create Customer</a>
+</div>
+</body>
